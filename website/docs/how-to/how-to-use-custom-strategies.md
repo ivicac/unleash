@@ -90,7 +90,7 @@ Strategies are stored in separate JavaScript files and loaded into the container
 1. **Create a strategies directory.** Create a directory that Docker has access to where you can store your strategies. The next steps assume you called it `strategies`
 2. **Initialize a node project** and **install the Unleash Client**:
 
-   ``` shell
+   ``` shell npm2yarn
    npm init -y && \
    npm install unleash-client
    ```
